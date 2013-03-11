@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <link rel="stylesheet" href="stylesheets/screen.css" type="text/css" media="screen" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>
+      Academic writing extensions to Markdown
+  </title>
+  <script src="javascripts/rounded_corners_lite.inc.js" type="text/javascript"></script>
+<style>
+
+</style>
+  <script type="text/javascript">
+    window.onload = function() {
+      settings = {
+          tl: { radius: 10 },
+          tr: { radius: 10 },
+          bl: { radius: 10 },
+          br: { radius: 10 },
+          antiAlias: true,
+          autoPad: true,
+          validTags: ["div"]
+      }
+      var versionBox = new curvyCorners(settings, document.getElementById("version"));
+      versionBox.applyCornersToAll();
+    }
+  </script>
+</head>
+<body>
+<div id="main">
+
+    <h1>Academic writing extensions to Markdown</h1>
+    <div id="version" class="clickable" onclick='document.location = "http://rubyforge.org/projects/mandown"; return false'>
+      <p>Get Version</p>
+      <a href="http://rubyforge.org/projects/mandown" class="numbers">0.0.10</a>
+    </div>
+    <h1>&#x2192; &#8216;mandown&#8217;</h1>
+
+
+	<h2>What</h2>
+
+
+	<p>Mandown provides simple extensions to the <a href="http://daringfireball.net/projects/markdown/">Markdown</a> syntax that are useful for academic writing.</p>
+
+
+	<p>Writing a paper using Mandown is simple: write your paper using standard Markdown syntax and the Mandown extensions where necessary, then process your file using the Mandown tools. These will generate a standard Markdown file containing your citations, bibliography etc. Then process the resulting file using a suitable Markdown processor (I recommend using Pandoc, which will generate <span class="caps">RTF</span> files that can be opened using Microsoft Word).</p>
+
+
+	<p>&#8216;Mandown&#8217; is a portmanteau of &#8216;Markdown&#8217; and &#8216;manuscript&#8217; which I found appropriately amusing (&#8220;Man down!!&#8221;).</p>
+
+
+	<p>Mandown is at an early stage of development and is not quite ready for use on real work. However, it still might be useful to you and I&#8217;d appreciate early feedback. It is easy to install, upgrade and uninstall Mandown, so if you&#8217;re interested, please give it a try.</p>
+
+
+	<h2>Why?</h2>
+
+
+	<p>Academics typically write papers using either LaTeX or Microsoft Word. Word is often favoured by the less technically inclined (or those who are simply ignorant of the existence of alternatives). LaTeX is used for some combination of the following reasons: it&#8217;s free software; it can produce typographically excellent output; LaTeX documents are plain text files which can be edited using powerful text editors (vi, Emacs, TextMate etc.). Those who would otherwise choose LaTeX are often forced to use Word by their co-authors or the publishers of their work, and would like a way to maintain the benefits of their LaTeX environment while being able to produce Word documents. Mandown provides tools to allow this.</p>
+
+
+	<p>Mandown is not attempting to be a document preparation system like LaTeX; if you can use LaTeX you probably should&#8212;it&#8217;s far more powerful than Mandown. For example, Mandown will have no support for controlling page layout or inserting and controlling graphics (though it will support the concept of figures).</p>
+
+
+	<p>Mandown is implemented as a set of command line tools that can be chained together into a pipeline. In future, further extensions to Markdown will be developed and implemented (e.g. figdown will support figures, another tool will support sectioning, labels and referring, etc.). Mandown is distributed as a gem for ease of installation (see the next section).</p>
+
+
+	<h2>Installing</h2>
+
+
+	<p>Mandown is distributed as a Ruby gem (so you&#8217;ll need Ruby and RubyGems installed already). To install, type something like:</p>
+
+
+<pre>sudo gem install mandown</pre>
+
+	<p>(If you are confused already, read the <a href="http://rubygems.org/read/chapter/1#page1">Really Quick Start guide</a> from the RubyGems user guide and note that you may or may not need the <a href="http://en.wikipedia.org/wiki/Sudo">sudo</a> command: it&#8217;s necessary on Mac <span class="caps">OS X</span>, but on other systems you might need to become the super user first by running the <code>su</code> command and entering the super user&#8217;s password, and then running <code>gem install mandown</code>.)</p>
+
+
+	<p>This will add the Mandown programs (executable Ruby scripts).</p>
+
+
+	<p>You will also need to install a suitable Markdown processor. I recommend <a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> which can convert Markdown to multiple output formats, including <span class="caps">RTF</span> which can be opened using Microsoft Word.</p>
+
+
+	<h2>The tools</h2>
+
+
+	<p>The following Mandown tools are provided in the latest release:</p>
+
+
+	<ul>
+	<li><code>bibdown</code> Cite publications and build a bibliography.</li>
+		<li><code>secdown</code> Automatically insert section numbers.</li>
+		<li><code>mandown-sample</code> Output a sample Mandown source document.</li>
+	</ul>
+
+
+	<h2>Usage</h2>
+
+
+	<p>First you need to write a manuscript using a combination of the Markdown and
+Mandown syntaxes, but to get you started Mandown includes a sample Mandown document (see the example, below). Markdown and Mandown are very simple and all you need is a plain text editor (don&#8217;t save your Mandown files as Word documents, they must be plain text files).</p>
+
+
+	<p>To learn Markdown, see the <a href="http://daringfireball.net/projects/markdown/syntax">Markdown
+documentation</a> (note that
+<a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> is the recommended Markdown processor
+for academic applications).</p>
+
+
+	<p>Each Mandown tool adds one or two simple extensions to Markdown; for example <code>bibdown</code> adds the <code>cite:</code> syntax to cite references and allows you to specify your bibliography in <span class="caps">YAML</span> format.</p>
+
+
+	<p>Each tool provides its own documentation via a <code>--help</code> option, for example type</p>
+
+
+<pre>bibdown --help</pre>
+
+	<p>to learn how to use the bibdown tool and see its syntax.</p>
+
+
+	<p>Because each Mandown tool does one thing and adds only one or two syntax extensions, you can easily learn just the ones you need and ignore the rest (or perhaps contribute your own).</p>
+
+
+	<h3>Example</h3>
+
+
+	<p>Let&#8217;s read an example Mandown manuscript using the <code>less</code> pager:</p>
+
+
+<pre>mandown-sample | less</pre>
+
+	<p>The <code>mandown-sample</code> program simply outputs the sample manuscript.</p>
+
+
+	<p>(Note how papers are cited using the <code>cite:</code> command. Also scroll to the bottom and have a quick look at the <span class="caps">YAML</span>-format bibliography.)</p>
+
+
+	<p>We want to process this document using Mandown (and then Pandoc), so first save the sample to a file:</p>
+
+
+<pre>mandown-sample &gt; sample-manuscript.txt</pre>
+
+	<p>Now let&#8217;s process this sample manuscript using <code>bibdown</code>:</p>
+
+
+<pre>cat sample-manuscript.txt | bibdown &gt; sample-markdown.txt</pre>
+
+	<p>This uses the <code>cat</code> program to send the <code>sample-manuscript.txt</code> file to <code>bibdown</code> using a pipe (via the <code>|</code> character), and then saves the result to a file called <code>sample-markdown.txt</code> (via the <code>&gt;</code> character):</p>
+
+
+<code>bibdown</code> interprets the bibliographic aspects of the Mandown syntax and renders them using Markdown. The result can then be processed using a Markdown processor such as Pandoc:
+
+<pre>pandoc --smart -s sample-markdown.txt -o manuscript.rtf</pre>
+
+	<p>You could now open the <code>manuscript.rtf</code> file using an application like Microsoft Word or OpenOffice.org.</p>
+
+
+	<p>The Mandown tools are designed to be chained together into a pipeline, so for example you might do:</p>
+
+
+<pre>cat my-manu.txt | bibdown | secdown &gt; my-manu-out.txt</pre>
+<pre>pandoc ...</pre>
+
+	<h2>Upgrading</h2>
+
+
+	<p>Mandown is undergoing steady development and currently has a 0.0.x release number. I&#8217;m hoping to get first versions of the most important tools finished soon. At this point Mandown will be given the 0.1.0 version number, to indicate that it is suitable for people to start using it (even if just in an experimental context).</p>
+
+
+	<p>If you use the early versions of Mandown and want to keep up-to-date, simply run</p>
+
+
+<pre>sudo gem update mandown</pre>
+
+	<p>You may also optionally remove previous versions using:</p>
+
+
+<pre>sudo gem uninstall mandown --version x.y.z</pre>
+
+	<p>or</p>
+
+
+<pre>sudo gem uninstall mandown</pre>
+
+	<p>and then install Mandown as usual.</p>
+
+
+	<h2>Help, gotchas and <span class="caps">FAQ</span></h2>
+
+
+	<h3>Q1: How do I &#8230;</h3>
+
+
+	<p>Email me; there isn&#8217;t much implemented yet, but the bare bones are there. No guarantees, but I&#8217;ll try and take your feature requests into consideration. Or better yet, send me code!</p>
+
+
+	<h3>Q2: I have a problem running bibdown.</h3>
+
+
+	<p>Check that you are not using hard tabs; <span class="caps">AFAIK</span>, Ruby&#8217;s <span class="caps">YAML</span> parser requires that soft tabs (i.e. emulated using spaces) be used. Also check the alignment of the various fields.</p>
+
+
+	<h3>Q3: bibdown chokes on titles etc. that contain colons.</h3>
+
+
+	<p>Surround the title in quotes; these will be ignored, but fix the problem. I think this is a bug in Ruby&#8217;s <span class="caps">YAML</span> parser (as of Ruby 1.8.6).</p>
+
+
+	<h3>Q4: The tools don&#8217;t run.</h3>
+
+
+	<p>Mandown requires Ruby version 1.8.6 or higher, and the ruby interpreter program should probably be on your $PATH. If you installed Mandown from the gem, then the tools should be on your system&#8217;s $PATH and you should be able to run them. To verify that the tools are on your system&#8217;s $PATH, type</p>
+
+
+<pre>which bibdown</pre>
+
+	<p>If a path is reported to the bibdown program, then it is on your $PATH and should be executable; try running</p>
+
+
+<pre>bibdown --help</pre>
+
+	<p>Otherwise please get in touch with me.</p>
+
+
+	<h2>Please help</h2>
+
+
+	<p>If you would like to contribute to Mandown, please email <a href="mailto:mandown@microserf.org.uk">Chris Rose</a></p>
+
+
+	<p>The trunk repository is <code>svn://rubyforge.org/var/svn/mandown/trunk</code> for anonymous access.</p>
+
+
+	<h2>Acknowledgements</h2>
+
+
+	<p>Mandown would not be possible without the excellent tools provided by the Ruby community. In particular, the Ruby standard library <span class="caps">YAML</span> parser, Nic Williams&#8217; <a href="http://newgem.rubyforge.org/">newgem</a> and the <a href="http://rubyforge.org/">Ruby Forge</a> project have made Mandown much easier to develop and distribute. Thanks!</p>
+
+
+	<h2>License</h2>
+
+
+	<p>This code is distributed according to the terms of the <span class="caps">GNU</span> General Public License; see the file <code>COPYING</code> for full details.</p>
+    <p class="coda">
+      <a href="mandown@microserf.org.uk">Chris Rose</a>, 18th January 2008<br>
+      Theme extended from <a href="http://rb2js.rubyforge.org/">Paul Battley</a>
+    </p>
+</div>
+
+<!-- insert site tracking codes here, like Google Urchin -->
+
+</body>
+</html>

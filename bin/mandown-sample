@@ -1,0 +1,135 @@
+# Please note that the copyright of the manuscript is owned by The PLoS
+# Medicine Editors and their work is licensed according to the Creative
+# Commons Attribution License.
+
+def sample
+<<END
+Lethal Injection Is Not Humane
+
+
+The PLoS Medicine Editors
+
+Citation: The PLoS Medicine Editors (2007) Lethal Injection Is Not Humane. PLoS Med 4(4): e171 doi:10.1371/journal.pmed.0040171
+
+Published: April 24, 2007
+
+Copyright: © 2007 The PLoS Medicine Editors. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+
+E-mail: medicine_editors@plos.org
+
+Note: This manuscript has been modified slightly to be processed using the Mandown tools and to illustrate Mandown features. As a result the original meaning of the article may be altered slightly (e.g. the introduction of sections may place emphasis in a way that the original authors did not intend), but I have tried hard not to alter the meaning of the text. Please refer to the original article at PLoS Medicine.
+
+Introduction
+============
+
+This month's issue of PLoS Medicine contains a research article on three protocols used in lethal injection, the current method of execution for most US states. Despite the British Royal Commission on Capital Punishment advising against lethal injection half a century ago cite:Emanuel, the United Nations General Assembly affirming the desirability of abolishing the death penalty in 1971, and the European Union explicitly banning the death penalty in all circumstances cite:EU, execution—predominantly by lethal injection—is still practiced in many countries. During 2005 at least 2,148 people were executed in 22 countries in cases recorded by Amnesty International; the actual numbers were certainly higher. The majority of these executions took place in China, where fleets of mobile execution vans have been deployed to facilitate prompt, low-profile executions by lethal injection. Iran, Saudi Arabia, and the US together with China accounted for 94% of executions in 2005 cite:AmInt.
+
+Lethal Injection in the US
+==========================
+
+Following its introduction to the US in 1982, lethal injection became the primary method of execution there, largely replacing execution by hanging, firing squad, gas chamber, and electrocution. Each of these older methods has come to be seen as inhumane or excessively violent by most states, but each remains an option in a handful of others. Of the 53 executions in the US in 2006, all but one (an electrocution) were carried out using lethal injection cite:DPIC.
+
+In recent months, concerns over botched lethal injections have put the method on hold in a dozen or so of the 36 US states that have the death penalty. Following a particularly agonizing execution in December 2006, the US District Court ruled that California's lethal injection protocol was unconstitutional. The governors of Florida and Tennessee suspended executions pending review of their states' lethal injection protocols. A court ruling in December 2006 suspended Maryland's executions, and New Jersey is considering an outright ban on its death penalty following a 2004 court order requiring the state to justify its lethal injection process. Executions are on hold in several other states pending legal proceedings cite:DPIC.
+
+In this context, the editors of PLoS Medicine believe it is timely to publish a research article reporting shortcomings of lethal injection protocols. Strictly speaking, this article has little to do with medicine. Execution by lethal injection, even if it uses tools of intensive care such as intravenous tubing and beeping heart monitors, has the same relationship to medicine that an executioner's axe has to surgery. Nonetheless, there is a need for greater openness in public discussion and consideration of the death penalty, including its unpalatable details.
+
+Challenges to the constitutionality of lethal injection have thus far been based largely on accounts of suffering resulting from unskilled administration. The American Medical Association, the American Nurses Association, the Society of Correctional Physicians, and a number of state medical boards have banned as unethical any causative role for medical professionals in executions cite:Gawande. Accordingly, in lethal injection procedures intravenous access has often been attempted (with frequent failures) by untrained staff, the execution mixture has precipitated and blocked IV tubes, and lethal doses have been unreliably calculated cite:Koniaris. Anesthesia has failed, chemical burns have occurred, and suffering has proceeded for 30 minutes or longer. Although this suffering might be seen as a consequence of professional refusal to participate in executions, this refusal also appears to be one of the primary forces motivating reexamination of lethal injection by the courts.
+
+The current article by Koniaris and colleagues gives further cause for concern by questioning whether, even if “perfectly” administered, the protocols would achieve their stated aim of causing death without inflicting inhumane punishment. The authors analyzed several cases from three states: California, North Carolina, and Virginia. (Texas, the state with the largest number of lethal injections, does not release data from executions.) These lethal injection protocols use the barbiturate thiopental (intended to sedate and to suppress breathing), the neuromuscular blocker pancuronium (which paralyzes, causing respiratory arrest but also preventing agonal movements that might indicate suffering), and the electrolyte potassium (intended to cause cardiac arrest). Such protocols are intended to provide redundancy, such that each drug is given at a dose that would by itself cause death. However, in analyzing data from actual executions, Koniaris and colleagues report that thiopental and potassium do not consistently result in death. In fact, individuals undergoing execution have continued to breathe after the injection of thiopental, and their hearts have continued to beat following injection of potassium; in these cases, the authors conclude, it is quite likely that those being executed have experienced asphyxiation while conscious and unable to move, and possibly an intense burning pain throughout the body from the potassium injection.
+
+Each of the editors of PLoS Medicine opposes the death penalty. It is not our intention to encourage further research to “improve” lethal injection protocols. As editors of a medical journal, we must ensure that research is ethical, and there is no ethical way to establish the humaneness of procedures for killing people who do not wish to die. Human research to further the ends of governments at the expense of individual lives is an obvious violation of the Declaration of Helsinki, which was conceived largely in response to the atrocities of Nazi “medicine” in order to articulate an international standard for ethical human experimentation cite:WMA. Whatever local law might say in a given place and time, no ethical researcher would propose a study to establish such procedures, no ethical reviewers would approve it, and no ethical journal would publish it. The acceptability of lethal injection under the US Constitution's Eighth Amendment ban on inhumane punishment has never been established; the data presented by Koniaris and colleagues adds to the evidence that lethal injection is simply the latest in a long line of execution methods that have been found to be inhumane. It is time for the US to join the majority of countries worldwide in recognizing that there is no humane way of forcibly killing someone.
+
+Apart from the issue of whether humane execution can exist, we must also consider the accuracy of convictions resulting in death sentences. Execution of wrongfully sentenced individuals is obviously unacceptable, yet between 1973 and 2004 in the US, 118 prisoners who had been sentenced to death were later released on grounds of innocence cite:AmInt2. Of 197 convictions in the US that were subsequently exonerated by DNA evidence, 14 were at one time sentenced to death or served time on death row cite:InProj. Racial bias in sentencing likely accounts for much of this error; more than half of the exonerees were African Americans, and the rate of death sentences in the US among those convicted of killing a white victim is considerably higher than for murderers of blacks. Given this potential for fatal error, how can any objective person support the death penalty, which allows for no correction?
+
+We support the recent decision of Craig Watkins, the new district attorney of Dallas, Texas, to examine hundreds of cases over the past 30 years to see whether DNA tests might reveal wrongful convictions cite:McGonigle. Such errors are inevitable when an implicit goal of sentencing, and particularly of imposing the death penalty, is not rational but emotional: the desire for revenge. As one law professor stated in a recent New York Times Magazine article on lethal injection, “Retribution, the conscious affliction of pain and suffering because and only because some people deserve it, is the essence of punishment” cite:Weil. But if the personal satisfaction of seeing criminals “get what they deserve” really reflects the intentions of Americans, why has the US seen a transition away from firing squads, hanging, or even drawing and quartering? Why was capital punishment illegal for a decade until it was reinstated by a Supreme Court ruling in 1976? Why have some US states rejected the death penalty completely, and others suspended its use? Why has the US followed the course associated with totalitarian states and rejected by other democracies in this matter?
+
+Conclusions
+===========
+
+Clearly, the death penalty is a matter of profound ambivalence in American society. Courts and state governments are saying that if capital punishment exists, it must not be cruel or visibly violent. Physicians and nurses are saying that their involvement in executions is below any acceptable conception of professional ethics. How to reconcile the needs of a society given to vengeance but outwardly abhorrent of cruelty or violence, trusting of medical science's trappings but indifferent to their use in killing, expecting the highest ethics of its physicians but willing to medicalize the execution chamber? The new data in PLoS Medicine will further strengthen the constitutional case for the abandonment of execution in the US. As a moral society, the US should take a leading role in the abandonment of executions worldwide.
+
+# Bibliography
+
+Emanuel:
+  authors:  Emanuel, L L & Bienen, L B
+  title:    Physician participation in executions (editorial)
+  journal:  Ann Intern Med
+  volume:   135
+  pages:    922--924
+  year:     2001
+
+EU:
+  organization:  European Union
+  title:    The EU's human rights & democratisation policy
+  url:      http://ec.europa.eu/comm/external_relations/human_rights/adp/index.htm
+  accessed: 19 March 2007
+
+AmInt:
+  organization:  Amnesty International
+  title:    Facts and statistics on the death penalty
+  url:      http://web.amnesty.org/pages/deathpenalty-statistics-eng
+  accessed: 19 March 2007
+  year:     2007
+
+DPIC:
+  organization:  Death Penalty Information Center
+  title:    Seaerchable database of executions
+  url:      http://www.deathpenaltyinfo.org/executions.php
+  accessed: 19 March 2007
+  year:     2007
+
+Gawande:
+  authors:  Gawande, A
+  title:    When law and ethics collide---Why physicians participate in executions  
+  journal:  New Engl J Med
+  volume:   354
+  pages:    1221--1229
+  year:     2006
+
+Koniaris:
+  authors:  Koniaris, L G & Zimmers, T A & Lubarsky, D A & Sheldon, J P
+  title:    Inadequate anaesthesia in lethal injection for execution
+  journal:  Lancet
+  volume:   365
+  pages:    1412--1414
+  year:     2005
+
+WMA:
+  organization:  World Medical Association
+  title:    Policy Statement
+  url:      http://www.wma.net/e/policy/b3.htm
+  accessed: 19 March 2007
+  year:     2007
+
+AmInt2:
+  organization:  Amnesty International
+  title:    'The death penalty worldwide: Developments in 2004'
+  url:      http://web.amnesty.org/library/Index/ENGACT500012005
+  accessed: 19 March 2007
+  year:     2005
+
+InProj:
+  organization:  The Innocence Project
+  title:    Facts on post-conviction DNA exonerations
+  url:      http://www.innocenceproject.org/Content/351.php
+  accessed: 19 March 2007
+
+McGonigle:
+  authors:  McGonigle, S
+  title:    Innocence Project to review Dallas County convictions
+  journal:  The Dallas Morning News
+  url:      http://www.dallasnews.com/sharedcontent/dws/dn/latestnews/stories/021607dnmetinnocence.179e9f3.html
+  accessed: 19 March 2007
+  year:     2007
+
+Weil:
+  authors:  Weil, E
+  title:    The needle and the damage done
+  journal:  New York Times (Magazine)
+  url:      http://www.nytimes.com/2007/02/11/magazine/11injection.t.html?ex=1328850000&en=98538f95b199b74e&ei=5088&partner=rssnyt&emc=rss
+  accessed: 19 March 2007
+  year:     2007
+END
+end
+
+STDOUT.puts(sample)
